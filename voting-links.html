@@ -293,9 +293,7 @@
 
         .links-header h3 {
             font-size: 1.8rem;
-            background: var(--accent-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #ffffff;
             display: flex;
             align-items: center;
             gap: 12px;
@@ -335,9 +333,14 @@
             background: rgba(255, 255, 255, 0.1);
             border: 1px solid var(--border-color);
             border-radius: 25px;
-            color: #ffffff ;
+            color: #ffffff;
             font-size: 0.95rem;
             margin-bottom: 30px;
+        }
+
+        .search-box::placeholder {
+            color: #ffffff;
+            opacity: 0.8;
         }
 
         .search-box:focus {
@@ -923,7 +926,7 @@
                 Platform: "Fancast",
                 Link: "https://t.co/MRfdCLngx1",
                 Type: "daily",
-                Notes: "FANS’ STAGE PICK",
+                Notes: "FANS' STAGE PICK",
               
                 Status: "active",
                 isNew: true
@@ -1455,4 +1458,3 @@
     </script>
 </body>
 </html>
-
